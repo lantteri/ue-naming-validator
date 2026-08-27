@@ -61,7 +61,7 @@ MyProject/
 3. Tick the checkbox next to it.
 4. Click **Restart Now** when prompted.
 
-![The Plugins browser with Naming Validator enabled](Images/enable-plugin.png)
+![The Plugins browser with Naming Validator enabled](images/enable-plugin.png)
 
 > **Note:** Naming Validator depends on Epic's built-in **Data Validation** plugin. It is enabled automatically alongside Naming Validator — you do not need to enable it yourself.
 
@@ -77,8 +77,9 @@ After the restart, the plugin is active and already enforcing a sensible default
 4. Go to the Content Browser, rename any Texture asset to something that does *not* start with `T_`, and save it.
 5. The **Message Log** opens with a validation error and a **Rename to '…'** link. Click it.
 
-![Project Settings showing the Naming Validator page](Images/project-settings.png)
-![Project Settings showing the Naming Validator page](Images/project-settings2.png)
+![Project Settings showing the Naming Validator page](images/project-settings.png)
+![Project Settings showing the Naming Validator page](images/project-settings2.png)
+![Project Settings showing the Naming Validator page](images/project-settings3.png)
 
 That is the whole loop: configure rules once, then the editor tells you when something drifts and offers to fix it.
 
@@ -123,7 +124,7 @@ Each entry in the **Rules** array has the following fields:
 | **Enabled** | Untick to switch a single rule off without deleting it. Disabled rules show `(disabled)` in their summary. |
 | **Regex Override** *(advanced)* | See [Advanced: Regex Overrides](#advanced-regex-overrides). |
 
-![An expanded rule showing Asset Class, Prefix and Suffix](Images/rule-fields.png)
+![An expanded rule showing Asset Class, Prefix and Suffix](images/rule-fields.png)
 
 ### Adding a rule
 
@@ -223,7 +224,7 @@ Results appear in the **Message Log** window (**Window → Message Log → Asset
 
 > `'my_texture' does not follow the naming convention for Texture2D: it must start with 'T_'.`
 
-![A naming violation in the Message Log](Images/message-log.png)
+![A naming violation in the Message Log](images/message-log.png)
 
 ### Error vs Warning
 
@@ -271,7 +272,7 @@ Some content should never be validated. Naming Validator skips the following:
 
 To add one, click **+** on the **Ignored Paths** array and use the folder picker to choose a content directory.
 
-![Adding an entry to Ignored Paths](Images/ignored-paths.png)
+![Adding an entry to Ignored Paths](images/ignored-paths.png)
 
 > Paths are matched on folder boundaries, so ignoring `/Game/Dev` does **not** accidentally ignore `/Game/DevTools`.
 
