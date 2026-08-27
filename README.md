@@ -225,6 +225,7 @@ Results appear in the **Message Log** window (**Window → Message Log → Asset
 > `'my_texture' does not follow the naming convention for Texture2D: it must start with 'T_'.`
 
 ![A naming violation in the Message Log](images/message-log.png)
+![A naming violation in the Message Log](images/message-log2.png)
 
 ### Error vs Warning
 
