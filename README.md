@@ -78,8 +78,8 @@ After the restart, the plugin is active and already enforcing a sensible default
 5. The **Message Log** opens with a validation error and a **Rename to '…'** link. Click it.
 
 ![Project Settings showing the Naming Validator page](images/project-settings.png)
-![Project Settings showing the Naming Validator page](images/project-settings2.png)
-![Project Settings showing the Naming Validator page](images/project-settings3.png)
+![Project Settings showing the Naming Validator page](images/project-settings-2.png)
+![Project Settings showing the Naming Validator page](images/project-settings-3.png)
 
 That is the whole loop: configure rules once, then the editor tells you when something drifts and offers to fix it.
 
@@ -272,7 +272,7 @@ Some content should never be validated. Naming Validator skips the following:
 
 To add one, click **+** on the **Ignored Paths** array and use the folder picker to choose a content directory.
 
-![Adding an entry to Ignored Paths](images/ignored-paths.png)
+![Adding an entry to Ignored Paths](images/ignore-paths.png)
 
 > Paths are matched on folder boundaries, so ignoring `/Game/Dev` does **not** accidentally ignore `/Game/DevTools`.
 
